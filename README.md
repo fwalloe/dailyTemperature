@@ -5,10 +5,8 @@ You'll need an API key to use this module: https://data.met.no/auth/requestCrede
 
 Integrate it in polybar with:
 
-;=====================================================
-; Daily temperature
-;=====================================================
 
+; Daily temperature
 [module/dailyTemperature]
 type = custom/script
 
