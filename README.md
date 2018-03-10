@@ -7,6 +7,7 @@ Integrate it in polybar with:
 
 
 ; Daily temperature
+
 [module/dailyTemperature]
 type = custom/script
 
@@ -15,5 +16,6 @@ exec = SCRIPTLOCATION/dailyTemperatureWrapper.sh
 interval = 60
 
 ;script sets icon and color depending on status 
+
 format = <label>
 label = %output%
